@@ -12,7 +12,8 @@
   <!-- <InputDataBind /> -->
   <!-- <PropsParrent /> -->
   <!-- <UpliftingP /> -->
-  <InputForm />
+  <!-- <InputForm /> -->
+  <FormValidation />
 </template>
 
 <script>
@@ -27,7 +28,8 @@
 // import InputDataBind from "./components/DataBindingInput/InputDataBind.vue";
 // import PropsParrent from "./components/Props/PropsParrent.vue";
 // import UpliftingP from "./components/Uplifting/UpliftingP.vue";
-import InputForm from "./components/InputForm/FormInput.vue";
+// import InputForm from "./components/InputForm/FormInput.vue";
+import FormValidation from "./components/FormValidation/FormValidation.vue";
 export default {
   name: "App",
   components: {
@@ -42,7 +44,8 @@ export default {
     // InputDataBind,
     // PropsParrent,
     // UpliftingP,
-    InputForm,
+    // InputForm,
+    FormValidation,
   },
 };
 </script>
